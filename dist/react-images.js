@@ -1222,6 +1222,7 @@ var Lightbox = function (_Component) {
     key: 'renderDialog',
     value: function renderDialog() {
       var _props2 = this.props,
+          LayoverComponent = _props2.LayoverComponent,
           backdropClosesModal = _props2.backdropClosesModal,
           isOpen = _props2.isOpen,
           showThumbnails = _props2.showThumbnails,
