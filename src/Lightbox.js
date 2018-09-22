@@ -222,7 +222,13 @@ class Lightbox extends Component {
     )
   }
   renderDialog() {
-		const { LayoverComponent, backdropClosesModal, isOpen, showThumbnails, width } = this.props
+    const {
+      LayoverComponent,
+      backdropClosesModal,
+      isOpen,
+      showThumbnails,
+      width,
+    } = this.props
 
     const { imageLoaded } = this.state
 
